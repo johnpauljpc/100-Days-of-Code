@@ -1,8 +1,4 @@
-website = {"name": None, "url": None, "desc": None, "rating": None}
+website = {"name": 'John', "url": 'https://github.com/johnpauljpc', "desc": 'iCode and develops', "rating": 5}
 
-for name in website.keys():
-  website[name] = input(f"{name}: ")
-
-print()
-for name, value in website.items():
-  print(f"{name}: {value}")
+for name, val in website.items():
+  print(name,val)
